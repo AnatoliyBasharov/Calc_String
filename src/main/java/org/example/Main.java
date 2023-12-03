@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите операцию ");
+        System.out.println("Введите операцию со строками: ");
         String expression = scanner.nextLine();
 
         if (expression.isEmpty() || expression.charAt(0) != '\"') {
